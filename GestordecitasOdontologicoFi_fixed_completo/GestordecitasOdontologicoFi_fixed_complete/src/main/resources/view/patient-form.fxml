@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="pe.edu.upeu.GestorOdontologico.controller.PatientController">
+    <children>
+        <VBox spacing="10" layoutX="20" layoutY="20">
+            <TextField fx:id="txtDni" promptText="DNI"/>
+            <TextField fx:id="txtNombres" promptText="Nombres"/>
+            <TextField fx:id="txtApellidos" promptText="Apellidos"/>
+            <TextField fx:id="txtTelefono" promptText="Teléfono"/>
+            <TextField fx:id="txtEmail" promptText="Email"/>
+            <TextArea fx:id="txtHistorial" promptText="Historial médico" prefHeight="80"/>
+
+            <Button text="Registrar" onAction="#savePatient"/>
+            <Button text="Pacientes" onAction="#openPatientForm"/>
+            <Button fx:id="btnReportes" text="Reportes" onAction="#openReportes"/>
+
+
+        </VBox>
+    </children>
+</AnchorPane>

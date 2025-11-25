@@ -1,0 +1,13 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="8" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.odontologia.ui.PacienteController">
+  <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+  <Label text="Gestionar Pacientes" style="-fx-font-size:16px;"/>
+  <TextField fx:id="dniField" promptText="DNI"/>
+  <TextField fx:id="nombreField" promptText="Nombre"/>
+  <TextField fx:id="telefonoField" promptText="Teléfono"/>
+  <Button text="Guardar" onAction="#onGuardar"/>
+  <Label fx:id="messageLabel"/>
+</VBox>

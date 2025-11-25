@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clinica.controllers.CitaController">
+  <padding>
+    <Insets top="10" right="10" bottom="10" left="10" />
+  </padding>
+  <HBox spacing="8">
+    <TextField fx:id="txtFecha" promptText="YYYY-MM-DD" />
+    <TextField fx:id="txtHora" promptText="HH:MM" />
+    <TextField fx:id="txtMotivo" promptText="Motivo" />
+    <ComboBox fx:id="cbOdont" />
+    <ComboBox fx:id="cbPac" />
+    <Button text="Agregar" onAction="#add" />
+    <Button text="Eliminar seleccionado" onAction="#delete" />
+  </HBox>
+  <TableView fx:id="table">
+    <columns>
+      <TableColumn fx:id="colId" text="ID" />
+      <TableColumn fx:id="colFecha" text="Fecha" />
+      <TableColumn fx:id="colHora" text="Hora" />
+      <TableColumn fx:id="colMotivo" text="Motivo" />
+      <TableColumn fx:id="colOd" text="Odontólogo ID" />
+      <TableColumn fx:id="colPacCol" text="Paciente ID" />
+    </columns>
+  </TableView>
+</VBox>

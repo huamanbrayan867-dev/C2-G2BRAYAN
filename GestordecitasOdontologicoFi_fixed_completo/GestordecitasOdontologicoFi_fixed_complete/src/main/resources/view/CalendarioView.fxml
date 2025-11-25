@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pe.edu.upeu.GestorOdontologico.controller.CalendarioController">
+
+    <top>
+        <HBox spacing="15" style="-fx-padding: 10;">
+            <Button text="Semana anterior" onAction="#semanaAnterior"/>
+            <Label fx:id="lblSemana" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+            <Button text="Siguiente semana" onAction="#semanaSiguiente"/>
+        </HBox>
+    </top>
+
+    <center>
+        <TableView fx:id="tablaCalendario">
+            <columns>
+                <TableColumn fx:id="colHora" text="Hora" prefWidth="80"/>
+                <TableColumn fx:id="colLunes" text="Lunes"/>
+                <TableColumn fx:id="colMartes" text="Martes"/>
+                <TableColumn fx:id="colMiercoles" text="Miércoles"/>
+                <TableColumn fx:id="colJueves" text="Jueves"/>
+                <TableColumn fx:id="colViernes" text="Viernes"/>
+                <TableColumn fx:id="colSabado" text="Sábado"/>
+            </columns>
+        </TableView>
+    </center>
+
+</BorderPane>

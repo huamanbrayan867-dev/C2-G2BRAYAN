@@ -1,0 +1,63 @@
+/* ======== TEMA CELESTE–TURQUESA MODERNO ======== */
+.root {
+    -fx-base: #e8faff;
+    -fx-background-color: #e8faff;
+    -fx-control-inner-background: white;
+    -fx-font-family: "Segoe UI", Roboto, Arial;
+}
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4dd0e1, #26a69a);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 18;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #5de8f7, #2fc4b4);
+}
+.button:pressed {
+    -fx-background-color: #1f8f85;
+}
+.text-field, .password-field, .text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #4dd0e1;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 8;
+}
+.text-field:focused, .password-field:focused, .text-area:focused {
+    -fx-border-color: #26a69a;
+    -fx-effect: dropshadow(gaussian, rgba(38,166,154,0.4), 8, 0.4, 0, 0);
+}
+.combo-box, .choice-box {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #26a69a;
+}
+.combo-box .list-cell {
+    -fx-padding: 6;
+}
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #26a69a;
+    -fx-border-radius: 8;
+}
+.table-view .column-header-background {
+    -fx-background-color: #26a69a;
+}
+.table-view .column-header, .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.table-row-cell:selected {
+    -fx-background-color: #b2ebf2;
+}
+.label.title, .header {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00838f;
+}
+.pane, .border-pane, .vbox, .hbox {
+    -fx-background-color: #e8faff;
+}

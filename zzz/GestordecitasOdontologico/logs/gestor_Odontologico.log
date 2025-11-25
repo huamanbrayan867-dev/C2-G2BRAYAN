@@ -1,0 +1,78 @@
+2025-10-30T19:32:40.172-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 17.0.16 with PID 11872 (started by brayan in C:\POO2025-C2G2-Real-main\GestorFinanciero)
+2025-10-30T19:32:40.177-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2025-10-30T19:32:41.017-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T19:32:41.096-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2025-10-30T19:32:41.511-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T19:32:41.565-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-30T19:32:41.592-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T19:32:41.928-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T19:32:41.965-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T19:32:42.144-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@75004ef4
+2025-10-30T19:32:42.147-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T19:32:42.190-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T19:32:43.202-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T19:32:43.233-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T19:32:43.636-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-30T19:32:43.825-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 4.179 seconds (process running for 5.013)
+2025-10-30T19:32:49.411-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX Application Thread] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T19:32:49.415-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX Application Thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T19:32:49.420-05:00  INFO 11872 --- [GestorOdontologico] [JavaFX Application Thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T19:36:08.998-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 17.0.16 with PID 16340 (started by brayan in C:\POO2025-C2G2-Real-main\GestorFinanciero)
+2025-10-30T19:36:09.004-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2025-10-30T19:36:09.861-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T19:36:09.940-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+2025-10-30T19:36:10.348-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T19:36:10.401-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-30T19:36:10.432-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T19:36:10.810-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T19:36:10.852-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T19:36:11.033-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@62f96ad6
+2025-10-30T19:36:11.036-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T19:36:11.078-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T19:36:12.205-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T19:36:12.240-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T19:36:12.658-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-30T19:36:12.845-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 4.42 seconds (process running for 5.448)
+2025-10-30T19:36:53.023-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX Application Thread] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T19:36:53.030-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX Application Thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T19:36:53.033-05:00  INFO 16340 --- [GestorOdontologico] [JavaFX Application Thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T19:40:47.742-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 17.0.16 with PID 8816 (started by brayan in C:\POO2025-C2G2-Real-main\GestorFinanciero)
+2025-10-30T19:40:47.747-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2025-10-30T19:40:48.539-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T19:40:48.613-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2025-10-30T19:40:48.955-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T19:40:49.010-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-30T19:40:49.047-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T19:40:49.374-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T19:40:49.416-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T19:40:49.607-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@2b096bc7
+2025-10-30T19:40:49.610-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T19:40:49.650-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T19:40:50.760-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T19:40:50.793-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T19:40:51.202-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-30T19:40:51.394-05:00  INFO 8816 --- [GestorOdontologico] [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 4.175 seconds (process running for 5.056)
+2025-10-30T19:41:18.199-05:00  INFO 8816 --- [GestorOdontologico] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T19:41:18.207-05:00  INFO 8816 --- [GestorOdontologico] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T19:41:18.217-05:00  INFO 8816 --- [GestorOdontologico] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

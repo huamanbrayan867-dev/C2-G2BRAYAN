@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clinica.controllers.PacienteController">
+  <padding>
+    <Insets top="10" right="10" bottom="10" left="10" />
+  </padding>
+  <HBox spacing="8">
+    <TextField fx:id="txtNombre" promptText="Nombre" />
+    <TextField fx:id="txtApellido" promptText="Apellido" />
+    <TextField fx:id="txtDni" promptText="DNI" />
+    <TextField fx:id="txtTelefono" promptText="Teléfono" />
+    <Button text="Agregar" onAction="#add" />
+    <Button text="Eliminar seleccionado" onAction="#delete" />
+  </HBox>
+  <TableView fx:id="table">
+    <columns>
+      <TableColumn fx:id="colId" text="ID" />
+      <TableColumn fx:id="colNombre" text="Nombre" />
+      <TableColumn fx:id="colApellido" text="Apellido" />
+      <TableColumn fx:id="colDni" text="DNI" />
+      <TableColumn fx:id="colTelefono" text="Teléfono" />
+    </columns>
+  </TableView>
+</VBox>

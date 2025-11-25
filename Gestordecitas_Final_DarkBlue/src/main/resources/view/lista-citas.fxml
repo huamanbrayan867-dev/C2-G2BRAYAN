@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/17 stylesheets="@../css/dark-blue.css""
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="pe.edu.upeu.GestorOdontologico.controller.ListaCitasController">
+
+    <Label text="Lista de Citas" style="-fx-font-size: 16px; -fx-font-weight: bold"/>
+
+    <TableView fx:id="tablaCitas">
+        <columns>
+            <TableColumn fx:id="colPaciente" text="Paciente"/>
+            <TableColumn fx:id="colOdontologo" text="Odontólogo"/>
+            <TableColumn fx:id="colFecha" text="Fecha"/>
+            <TableColumn fx:id="colHora" text="Hora"/>
+        </columns>
+    </TableView>
+</VBox>
