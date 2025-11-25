@@ -11,4 +11,7 @@ public interface IVentaService extends ICrudGenericoService<Venta,Long>{
     File getFile(String filex);
     JasperPrint runReport(Long idv) throws JRException, SQLException;
 
+    JasperPrint runReportVentas(String fInicio, String ffinal) throws
+            JRException, SQLException;
+
 }

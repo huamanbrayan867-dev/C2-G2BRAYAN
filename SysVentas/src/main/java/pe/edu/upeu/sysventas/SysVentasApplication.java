@@ -41,7 +41,7 @@ public class SysVentasApplication  extends Application {
 		//stage.setScene(new Scene(parent, bounds.getWidth(),bounds.getHeight()-100));
 		Scene scene = new Scene(parent);
 		stage.setScene(scene);
-		stage.setTitle("SysVentas SysCenterLife");
+		stage.setTitle("Odontology SysCenterLife");
 		stage.show();
 	}
 
