@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bp" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.GestorOdontologico.controller.MainGuiController">
+    <top>
+        <MenuBar fx:id="menuBarFx" BorderPane.alignment="CENTER">
+
+
+            <Menu fx:id="menuBarFxx" text="Principal">
+                <MenuItem onAction="#cerrarSesion" text="Cerrar Sesión" />
+
+                <MenuItem onAction="#salir" text="Salir" />
+
+            </Menu>
+
+
+            <Menu text="Usuarios">
+                <MenuItem text="Gestión de Usuarios" onAction="#abrirGestionUsuarios"/>
+
+            </Menu>
+            <Menu text="Citas">
+                <MenuItem text="Registrar Cita" onAction="#abrirRegistrarCita"/>
+                <MenuItem text="Lista de Citas" onAction="#abrirListaCitas"/>
+            </Menu>
+            <Menu text="Citas">
+                <MenuItem text="Registrar Cita" onAction="#abrirGestionCitas"/>
+
+            </Menu>
+
+            <!-- Menu de Temas -->
+            <Menu text="Temas">
+                <MenuItem text="Azul" onAction="#temaAzul" />
+                <MenuItem text="Oscuro" onAction="#temaOscuro" />
+                <MenuItem text="Verde" onAction="#temaVerde" />
+                <MenuItem text="Rosado" onAction="#temaRosado" />
+                <MenuItem text="Por defecto" onAction="#temaPorDefecto" />
+            </Menu>
+
+
+        </MenuBar>
+    </top>
+    <center>
+        <TabPane fx:id="tabPaneFx" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        </TabPane>
+    </center>
+</BorderPane>
